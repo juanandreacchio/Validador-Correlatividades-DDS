@@ -21,7 +21,7 @@ public class InscripcionTest {
 
         pdep.agregarCorrelativas(discreta,ayed);
 
-        juan.aprobar(discreta,ayed);
+        juan.aprobarMaterias(discreta,ayed);
 
         Assert.assertTrue(inscripcionDeJuan.aprobada());
 
@@ -38,7 +38,7 @@ public class InscripcionTest {
 
         so.agregarCorrelativas(arquitecturaDeComputadoras,discreta,ayed);
 
-        marta.aprobar(arquitecturaDeComputadoras,ayed);
+        marta.aprobarMaterias(arquitecturaDeComputadoras,ayed);
 
         Assert.assertFalse(inscripcionDeMarta.aprobada());
     }

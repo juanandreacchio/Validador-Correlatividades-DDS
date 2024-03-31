@@ -17,7 +17,7 @@ public class Alumno {
         return this.materiasAprobadas.stream().anyMatch(m -> m == materia);
     }
 
-    public void aprobar(Materia ... materias){
+    public void aprobarMaterias(Materia ... materias){
         Collections.addAll(this.materiasAprobadas, materias);
     }
 }
