@@ -683,6 +683,7 @@
 											"model": {
 												"$ref": "AAAAAAGOliL5TlWFl/w="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 469,
 											"top": 531,
@@ -696,7 +697,7 @@
 									"left": 464,
 									"top": 511,
 									"width": 283.73974609375,
-									"height": 38
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2313,7 +2314,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGOizQZQZpGZ54="
 									},
-									"name": "Materia materia"
+									"name": "Materia materia",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -2340,7 +2342,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGOliHrcEj83WQ="
 									},
-									"name": "Materia ... materias"
+									"name": "Materia ... materias",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -2552,7 +2555,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGOizOJ9po6DN8="
 									},
-									"name": "Alumno alumno"
+									"name": "Alumno alumno",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -2579,7 +2583,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGOliL5TlWFl/w="
 									},
-									"name": "Materia ... materias"
+									"name": "Materia ... materias",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",

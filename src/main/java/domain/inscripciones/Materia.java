@@ -8,8 +8,9 @@ public class Materia {
     private String nombre;
     private List<Materia> correlativas;
 
-    public Materia() {
-        this.correlativas = new ArrayList<>();
+    public Materia(String nombre, List<Materia> correlativas) {
+        this.nombre = nombre;
+        this.correlativas = correlativas;
     }
 
     public boolean puedeSerCursadaPor(Alumno alumno){

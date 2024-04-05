@@ -9,7 +9,7 @@ public class Inscripcion {
     private Alumno alumno;
 
     public Inscripcion(List<Materia> materias, Alumno alu) {
-        this.materias = materias;
+        this.materias = new ArrayList<>(materias);
         this.alumno = alu;
     }
 
