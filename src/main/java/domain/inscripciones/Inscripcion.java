@@ -13,6 +13,7 @@ public class Inscripcion {
         this.alumno = alu;
     }
 
+    
     public boolean aprobada(){
         return this.materias.stream().allMatch(m -> m.puedeSerCursadaPor(alumno));
     }
